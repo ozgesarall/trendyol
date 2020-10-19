@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="qa.ExtentReport.ExtentReporters"/>
+  </listeners>
+  <test name="Test Cases(failed)">
+    <classes>
+      <class name="qa.testcase.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- qa.testcase.HomePageTest -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [Selenium] -->
